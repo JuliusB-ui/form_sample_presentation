@@ -6,7 +6,13 @@
     <title>Reporting Form</title>
 </head>
 <body>
-    <h1>Submit Your Report</h1>
+    <h1>Select your Report</h1>
+    <select name="" id="">
+        <option value="spam">Spam</option>
+        <option value="abuse">Abuse</option>
+        <option value="other">Other</option>
+    </select>
+    
     <form action="/submit-report" method="post">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
